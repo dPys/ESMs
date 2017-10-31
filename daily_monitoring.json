@@ -1,1 +1,51 @@
-
+[{
+   "schedule_id":"Daily Monitoring",
+   "hours":[-1],
+   "randomize":0,
+   "start_date":"6-16-2017",
+   "expiration":15,
+   "end_date":"12-28-2017",
+   "notification_title":"Time for your hourly self-monitoring!",
+   "notification_body":"Please click on the AWARE application to respond at your soonest convenience.",
+   "esms":[
+       {"esm": {
+           "esm_type": 1,
+           "esm_title":"Activity",
+           "esm_instructions":"In a word or two, state the activity in which you are currently engaging",
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 15,
+           "esm_trigger": "dm-1",
+           "esm_na": 0
+           }
+       },
+       {"esm": {
+           "esm_type": 4,
+           "esm_title":"Enjoyment",
+           "esm_instructions":"Rate your enjoyment of this activity (1-10).",
+           "esm_likert_max":10,
+           "esm_likert_max_label":"Most Enjoyable",
+           "esm_likert_min_label":"Very Unpleasant",
+           "esm_likert_step":1,
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 15,
+           "esm_trigger": "dm-2",
+           "esm_na": 0
+           }
+       },
+       {"esm": {
+           "esm_type": 4,
+           "esm_title":"Importance",
+           "esm_instructions":"Rate the importance of this activity to you.",
+           "esm_likert_max":10,
+           "esm_likert_max_label":"Very Much",
+           "esm_likert_min_label":"Not at all",
+           "esm_likert_step":1,
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 15,
+           "esm_trigger": "dm-3",
+           "esm_na": 0
+           }
+       }
+	]
+	}
+]
