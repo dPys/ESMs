@@ -1,0 +1,97 @@
+[{
+   "schedule_id":"Daily Questionnaire",
+   "hours":[9,13,17,21],
+   "randomize":30,
+   "start_date":"6-16-2017",
+   "expiration":180,
+   "end_date":"12-28-2017",
+   "notification_title":"Time for your daily questionnaire!",
+   "notification_body":"Please click on the AWARE app to respond at your soonest convenience.",
+   "esms":[
+       {"esm": {
+           "esm_type": 4,
+           "esm_title":"ESM Likert",
+           "esm_instructions":"I felt sad today.",
+           "esm_likert_max":5,
+           "esm_likert_max_label":"Very Much",
+           "esm_likert_min_label":"Not at all",
+           "esm_likert_step":1,
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 60,
+           "esm_trigger": "bd-q1",
+           "esm_na": 0
+           }
+       },
+       {"esm": {
+           "esm_type": 4,
+           "esm_title":"ESM Likert",
+           "esm_instructions":"I felt happy today.",
+           "esm_likert_max":5,
+           "esm_likert_max_label":"Very Much",
+           "esm_likert_min_label":"Not at all",
+           "esm_likert_step":1,
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 60,
+           "esm_trigger": "bd-q2",
+           "esm_na": 0
+           }
+       },
+       {"esm": {
+           "esm_type": 4,
+           "esm_title":"ESM Likert",
+           "esm_instructions":"I felt stressed today.",
+           "esm_likert_max":5,
+           "esm_likert_max_label":"Very Much",
+           "esm_likert_min_label":"Not at all",
+           "esm_likert_step":1,
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 60,
+           "esm_trigger": "bd-q3",
+           "esm_na": 0
+           }
+       },
+       {"esm": {
+           "esm_type": 4,
+           "esm_title":"ESM Likert",
+           "esm_instructions":"I felt energetic today.",
+           "esm_likert_max":5,
+           "esm_likert_max_label":"Very Much",
+           "esm_likert_min_label":"Not at all",
+           "esm_likert_step":1,
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 60,
+           "esm_trigger": "bd-q4",
+           "esm_na": 0
+           }
+       },
+       {"esm": {
+           "esm_type": 4,
+           "esm_title":"ESM Likert",
+           "esm_instructions":"Today, I dwelled on my mistakes, failures, or losses.",
+           "esm_likert_max":5,
+           "esm_likert_max_label":"Very Much",
+           "esm_likert_min_label":"Not at all",
+           "esm_likert_step":1,
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 60,
+           "esm_trigger": "bd-q5",
+           "esm_na": 0
+           }
+       },
+       {"esm": {
+           "esm_type": 4,
+           "esm_title":"ESM Likert",
+           "esm_instructions":"Today, I thought about something negative that has happened.",
+           "esm_likert_max":5,
+           "esm_likert_max_label":"Very Much",
+           "esm_likert_min_label":"Not at all",
+           "esm_likert_step":1,
+           "esm_submit":"Next",
+           "esm_expiration_threshold": 60,
+           "esm_trigger": "bd-q6",
+           "esm_na": 0
+           }
+       }
+	]
+	}
+]
