@@ -14,6 +14,7 @@
            "esm_instructions":"In a word or two, state the activity in which you are currently engaging",
            "esm_submit":"Next",
            "esm_expiration_threshold": 15,
+	   "esm_trigger": "bd-q1",
            "esm_na": 0
            }
        },
@@ -27,6 +28,7 @@
            "esm_likert_step":1,
            "esm_submit":"Next",
            "esm_expiration_threshold": 15,
+	   "esm_trigger": "bd-q2",
            "esm_na": 0
            }
        },
@@ -40,6 +42,7 @@
            "esm_likert_step":1,
            "esm_submit":"Next",
            "esm_expiration_threshold": 15,
+	   "esm_trigger": "bd-q3",
            "esm_na": 0
            }
        }
