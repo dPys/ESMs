@@ -12,7 +12,7 @@
            "esm_type": 1,
            "esm_title":"Activity",
            "esm_instructions":"In a word or two, state the activity in which you are currently engaging",
-           "esm_free_text":5,
+           "esm_free":5,
            "esm_submit":"Next",
            "esm_expiration_threshold": 15,
            "esm_trigger": "dm-1",
