@@ -1,6 +1,6 @@
 [{
    "schedule_id":"Daily Questionnaire",
-   "hours":[9,13,17,21],
+   "hours":[-1],
    "randomize":30,
    "start_date":"6-16-2017",
    "expiration":180,
